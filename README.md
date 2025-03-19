@@ -13,8 +13,6 @@ This project implements a **Transformer Model** from scratch using **TensorFlow 
   - [Installation](#installation)
   - [Usage](#usage)
 - [Test Case](#test-case)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -144,12 +142,5 @@ output = transformer(input_seq, target_seq, d_model, num_heads, num_layers, hidd
 print(output.shape)  # Expected: (batch_size, target_seq_len, vocab_size)
 ```
 
-## Contributing
 
-Contributions are welcome! If you'd like to contribute, please fork the repository, create a new branch, and submit a pull request with your changes.
 
-Before contributing, please make sure to run tests and ensure that the code adheres to the style guidelines.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
